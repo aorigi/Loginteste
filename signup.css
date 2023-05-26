@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+
+
+
+.signup-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 100px;
+    padding-bottom: 270px;
+    background-color: rgba(71, 71, 68, 0.384);
+    border-style: solid;
+    border-color: rgba(71, 71, 68, 0.384);
+    width: 1080px;
+    
+}
+
+.div-content{
+    padding: 6px;
+    border-style: solid;
+    font-size: 12px;
+    border-radius: 5px;    
+}
+
+.input-name{
+    width: 250px;
+}
+
+#input-date{
+    top: 50%;
+    left: 50%;
+    transform: translate(280%,205%);
+    width: 150px;
+}
+
+#div-date{
+    top: 50%;
+    left: 50%;
+    transform: translate(500%,220px);
+    width: 150px;
+    
+}
