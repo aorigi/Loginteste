@@ -7,7 +7,8 @@
     width: 100%;
     flex-wrap: wrap;
     gap: 15px;
-    margin: 60px;
+    justify-content: center;
+    margin-top: 180px;
 }
 
 .body-signup{
