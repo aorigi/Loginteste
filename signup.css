@@ -6,19 +6,30 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-    margin-top: 180px;
+    justify-content: left;
+    gap: 20px;
+}
+
+.background-main{
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+
 }
 
 .body-signup{
-    background-color: rgba(170, 152, 152, 0.178);
+    background-color: #F6F6F6;    
 }
 
 .signup-container{
-    /* border-color: rgba(95, 67, 12, 0.178); */
-    border-style: hidden;
+    width: 950px;
+    height: 500px;
+    margin-left: 250px;
+    margin-top: 90px;
+
 }
+
 
 .div-content{
     padding: 12px;
@@ -26,11 +37,23 @@
     font-size: 12px;
     border-radius: 8px;
     border-radius: 10px;
-    border-style: solid; 
+    border-style: solid;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 15px;
 }
 
-h4 {
-    margin-left: 5px;
+.main-title{
+    font-family: 'Noto Sans', sans-serif;
+    color: #000000;
+    font-size: 35px;
+}
+
+.title-content{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-size: 15px;
+    margin: 5px;
 }
 
 .input-name{
@@ -43,4 +66,8 @@ h4 {
 
 .input-date{
     width: 180px;
+}
+
+.input-email{
+    width: 350px;
 }
