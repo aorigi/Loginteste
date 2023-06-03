@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body-login{
+    background-color: #1167A8;
+}
+
+.background-login{
+    margin-top: -465px;
+
+}
+
+.login-container{
+    margin-top: 100px;
+    margin-left: 860px;
+}
+
+.login-title{
+    color: #E8E3F0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 49.9px;}
+
+.login-subtitle{
+    margin: 10px 0px;
+    color: #E8E3F0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.login-formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 128px;
+    margin-left: 858px;
+    gap: 20px;
+}
+
+.login-label-items{
+    display: flex;
+    align-items: center;
+    color: #E8E3F0;
+    opacity: 0.7;
+}
+
+.input-credenciais{
+    padding: 15px;
+    border: none;
+    width: 450px;
+}
+
+.input-credenciais:focus{
+    outline: 0;
+}
+
+.forgot-passaword{
+    color: #ffffff;
+    font-weight: 700;
+}
