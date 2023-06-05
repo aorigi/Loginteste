@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="Login.css">
     <link rel="stylesheet" href="CSS/fonts.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body class="body-login">
-  
+  <img src="img/background-login.png" alt="" class="backgroung-img">
+  <div class="div-principal">
     <main class="login-container">
         <h1 class="login-title">Login</h1>
         <p class="login-subtitle">
@@ -19,6 +22,9 @@
       
     <form action="" class="login-formulario">
         <label for="" class="login-label-items">
+          <span class="material-symbols-outlined">
+            person_4
+            </span>
           <input
             type="text"
             class="input-credenciais"
@@ -29,6 +35,9 @@
         </label>
 
         <label for="" class="login-label-items">
+          <span class="material-symbols-outlined">
+            lock
+            </span>
             <input
               type="text"
               class="input-credenciais"
@@ -37,9 +46,12 @@
               id="passaword"
             />
         </label>
-        <p class="login-label-items">Esquece sua senha?<a href="" class="forgot-passaword"> Redefina</a></p>
+        <button class="button-login"><a href="">Entrar</a></button>
+        <p class="login-label-items forgot-passaword">Esquece sua senha?<a href="" class="a-space">Redefina</a></p>
+        <button class="button-cadastro"><a href="">Cadastre-se</a></button>
+        <p class="rights">Telecall © Todos os direitos reservados</p>
     </form>
-    <img src="img/background-login.png" alt="" class="background-login">
+  </div>  
 </body>
 </html>
 

@@ -5,15 +5,19 @@
 
 .body-login{
     background-color: #1167A8;
+    display: flex;
 }
 
-.background-login{
-    margin-top: -465px;
+.backgroung-img{
+    max-width: 51%;
+}
 
+.div-principal{
+    margin-left: -800px;
 }
 
 .login-container{
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 860px;
 }
 
@@ -32,9 +36,17 @@
 .login-formulario{
     display: flex;
     flex-direction: column;
-    margin-top: 128px;
+    margin-top: 90px;
     margin-left: 858px;
     gap: 20px;
+    background-color: ;
+}
+
+.material-symbols-outlined{
+    color: #8D8D8D;
+    background-color: #ffffff;
+    padding: 15.5px;
+    border-radius: 50px 0px 0px 50px;
 }
 
 .login-label-items{
@@ -44,17 +56,69 @@
     opacity: 0.7;
 }
 
+.button-login{
+    background-color: #039EFF;
+    color: white;
+    font-size: 17px;
+    border: 0px;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: -10px;
+    margin-left: 390px;
+}
+
+.button-login a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button-cadastro{
+    background-color: #039EFF;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.button-cadastro a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .input-credenciais{
-    padding: 15px;
-    border: none;
+    padding: 20px;
+    border: 0px;
     width: 450px;
+    border-radius: 0px 50px 50px 0px;
 }
 
 .input-credenciais:focus{
     outline: 0;
 }
 
-.forgot-passaword{
+.a-space{
     color: #ffffff;
     font-weight: 700;
+    margin-left: 5px;
+}
+
+.forgot-passaword{
+    margin-top: -65px;
+    margin-left: 15px;
+}
+
+.rights{
+    color:#8D8D8D;
+    opacity: 1;
+    margin-top: 22px;
+    margin-left: 110px;
 }
