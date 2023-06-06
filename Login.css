@@ -9,7 +9,14 @@
 }
 
 .backgroung-img{
-    max-width: 51%;
+    max-width: 50%;
+}
+
+.login-logo{
+    margin: 40px 50px;
+    margin-top: 10px;
+    margin-left: 180px;
+
 }
 
 .div-principal{
@@ -17,8 +24,8 @@
 }
 
 .login-container{
-    margin-top: 70px;
-    margin-left: 860px;
+    margin-top: 120px;
+    margin-left: 430px;
 }
 
 .login-title{
@@ -36,10 +43,8 @@
 .login-formulario{
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
-    margin-left: 858px;
+    margin-left: 420px;
     gap: 20px;
-    background-color: ;
 }
 
 .material-symbols-outlined{
