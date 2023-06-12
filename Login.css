@@ -9,7 +9,7 @@
 }
 
 .backgroung-img{
-    max-width: 50%;
+    max-width: 51%;
 }
 
 .login-logo{
@@ -73,6 +73,12 @@
     transition: .3s;
     margin-top: -10px;
     margin-left: 390px;
+    transition: .3s;
+}
+
+.button-login:hover{
+    color: #d0d0d0;
+    background-color: #0198b2;
 }
 
 .button-login a{
@@ -92,6 +98,11 @@
     transition: .3s;
     margin-top: 120px;
     margin-left: 150px;
+}
+
+.button-cadastro:hover{
+    color: #d0d0d0;
+    background-color: #0198b2;
 }
 
 .button-cadastro a{
@@ -124,6 +135,6 @@
 .rights{
     color:#8D8D8D;
     opacity: 1;
-    margin-top: 22px;
+    margin-top: 52px;
     margin-left: 110px;
 }
